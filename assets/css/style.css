@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    color: #f8f8f8;
     font-family: 'Lato', sans-serif;
 }
 
@@ -29,7 +29,12 @@ h1 {
 /* Header */
 
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 
